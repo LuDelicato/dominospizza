@@ -1,3 +1,9 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   display: flex;
   background-color: #006491;
@@ -5,6 +11,7 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 60px;
+  margin-bottom: 50px;
 }
 
 nav h1 {
@@ -13,12 +20,6 @@ nav h1 {
 
 nav h1 img {
   width: 40px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 nav ul li {
@@ -39,4 +40,15 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 100%;
+}
+
+#highlights {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+#highlights li {
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 5px;
 }
