@@ -1,0 +1,141 @@
+[
+  {
+    "category_id": 1,
+    "category": "Classics",
+    "products": [
+      {
+        "product_id": 1,
+        "name": "Ham",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/2aec9831-f9a4-443e-bd6c-b837eccdb432.jpg",
+        "ingredients": ["Domino's Sauce", "Mozzarella Cheese", "Ham"],
+        "price": 13.95
+      },
+
+      {
+        "product_id": 2,
+        "name": "Funghi",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/fb94936a-d990-4854-bb92-8ae37f93f10d.jpg",
+        "ingredients": ["Domino's Sauce", "Mozzarella Cheese", "Fresh Mushrooms"],
+        "price": 13.95
+      },
+      {
+        "product_id": 3,
+        "name": "Tuna",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/bdb9278d-8446-4443-a5b7-4e48a2b828ce.jpg",
+        "ingredients": ["Domino's Sauce", "Mozzarella Cheese", "Tuna", "Fresh Tomato", "Purple Onions"],
+        "price": 13.95
+      },
+
+      {
+        "product_id": 4,
+        "name": "Bacon & Ham",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/425a1b5a-7d1d-4ab8-a6b5-f4721ba88290.jpg",
+        "ingredients": ["Domino's Sauce", "Mozzarella Cheese", "Bacon", "Ham"],
+        "price": 13.95
+      }
+    ]
+  },
+
+  {
+    "category_id": 2,
+    "category": "Favorites",
+    "products": [
+      {
+        "product_id": 5,
+        "name": "Pepperoni Fans",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/4d006e2b-e0d7-4ac7-aecc-af50489b6ca5.jpg",
+        "ingredients": ["Domino's Sauce", "Mozzarella Cheese", "Pepperoni"],
+        "price": 15.95
+      },
+
+      {
+        "product_id": 6,
+        "name": "Carbonara",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/045078ae-3373-4580-ba7c-9ce3f02a968d.jpg",
+        "ingredients": ["Cream Sauce", "Mozzarella Cheese", "Grilled Chicken", "Bacon", "Purple Onions"],
+        "price": 15.95
+      },
+      {
+        "product_id": 7,
+        "name": "Vegetarian",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/774f77f5-32e6-45c1-a510-0b2ad5348bbc.jpg",
+        "ingredients": [
+          "Domino's Sauce",
+          "Mozzarella Cheese",
+          "Purple Onion",
+          "Green Peppers",
+          "Fresh Mushrooms",
+          "Black Olives",
+          "Fresh Tomato",
+          "Feta-type Cheese",
+          "Parmesan-type Cheese"
+        ],
+        "price": 15.95
+      },
+
+      {
+        "product_id": 8,
+        "name": "American",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/47656739-aed3-474c-b81f-ef32424ec624.jpg",
+        "ingredients": ["Domino's Sauce", "Mozzarella Cheese", "Beef", "Bacon", "Fresh Tomato", "Purple Onions"],
+        "price": 15.95
+      }
+    ]
+  },
+
+  {
+    "category_id": 3,
+    "category": "Premium",
+    "products": [
+      {
+        "product_id": 9,
+        "name": "Extravaganzza",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/afaf3927-0ffc-42bf-b838-e026fab66c6a.jpg",
+        "ingredients": [
+          "Domino's Sauce",
+          "Mozzarella Cheese",
+          "Pepperoni",
+          "Ham",
+          "Beef",
+          "Pork Meal",
+          "Green Peppers",
+          "Purple Onion",
+          "Black Olives",
+          "Fresh Mushrooms"
+        ],
+        "price": 17.95
+      },
+
+      {
+        "product_id": 10,
+        "name": "Chicken Supreme",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/6c044b74-1e81-4980-88ff-dc7c921b8e54.jpg",
+        "ingredients": ["BBQ Sauce", "Mozzarella Cheese", "Grilled Chicken", "Bacon", "Purple Onion", "Sweet Corn"],
+        "price": 17.95
+      },
+
+      {
+        "product_id": 11,
+        "name": "Bella Nata",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/7ff17c04-7e6a-4677-87eb-89ccac8b4eb0.jpg",
+        "ingredients": [
+          "Cream Sauce",
+          "Mozzarella Cheese",
+          "Tuna",
+          "Caramelized Onion",
+          "Cheddar Cheese",
+          "Sweet Corn"
+        ],
+        "price": 17.95
+      },
+
+      {
+        "product_id": 12,
+        "name": "A. I. Pizza",
+        "image": "https://cache.dominos.com/wam/prod/market/PT/_en/images/promo/dc0c930e-73c3-46a3-a9bc-de1b6987f414.jpg",
+        "ingredients": ["BBQ Sauce", "Mozzarella Cheese", "Chicken with spices", "Bacon", "Green Peppers", "Pineapple"],
+        "price": 17.95
+      }
+    ]
+  }
+]
