@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Navbar(props) {
+  const { toggleProducts, cart } = props;
+
   return (
     <>
       <nav className='navbar'>
@@ -9,7 +11,7 @@ function Navbar(props) {
             href='/'
             onClick={(event) => {
               event.preventDefault();
-              props.toggleProducts(false);
+              toggleProducts(false);
             }}>
             <img
               src='https://cache.dominos.com/olo/6.102.5/assets/build/images/img/dpz-logo.svg'
@@ -26,7 +28,7 @@ function Navbar(props) {
               href='/'
               onClick={(event) => {
                 event.preventDefault();
-                props.toggleProducts(true);
+                toggleProducts(true);
               }}>
               Menu
             </a>
@@ -47,7 +49,7 @@ function Navbar(props) {
             <a href='/'>Faz Login</a>
           </li>
           <li className='cart'>
-            <a href='/'>Carrinho</a>
+            <a href='/'>Carrinho ({cart.length})</a>
           </li>
         </ul>
       </nav>
